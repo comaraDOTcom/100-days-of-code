@@ -66,6 +66,6 @@ Learning rates can have different policies. In general it makes sense to decreas
 
 [Cyclical learning rates](https://arxiv.org/pdf/1506.01186.pdf) have been successful at getting higher accuracy in shorter training times. [Warmup](https://arxiv.org/pdf/1608.03983.pdf) can also be used, which is a method of using a less aggressive learning rate at the start of training.
 
-Adaptive Gradient Descent algorithms can be used instead of SGD which use optimisation algorithms for each parameter (and each parameter has its own learning rate).
+Adaptive Gradient Descent algorithms can be used instead of SGD which use optimisation algorithms for each parameter (and each parameter has its own learning rate). The initial [ADAGRAD paper](https://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) is covered here.
 
 [Ruder](https://arxiv.org/pdf/1609.04747.pdf) provides a good overview of all gradient descent optimization algorithms.
